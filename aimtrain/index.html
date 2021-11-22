@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="scorescreen">
+      <div id="result"></div>
+      <button id="gobutton" onclick="restart()">Try again</button>
+    </div>
+    <header id="header">
+      <div id="score"></div>
+      <div id="timer"></div>
+    </header>
+    <div id="gamewindow"></div>
+    <div id="gamemenu">
+      <h2 style="margin: 0">AimTrain</h2>
+      <p>
+        Score by clicking the orange circles. Click as many you can in 30 sec.
+      </p>
+      <p>Select difficulty:</p>
+      <div class="radio-toolbar">
+        <input type="radio" id="radioEasy" name="difficulty" value="easy" />
+        <label for="radioEasy">Easy</label>
+
+        <input
+          type="radio"
+          id="radioMedium"
+          name="difficulty"
+          value="medium"
+          checked
+        />
+        <label for="radioMedium">Medium</label>
+
+        <input type="radio" id="radioHard" name="difficulty" value="hard" />
+        <label for="radioHard">Hard</label>
+        <button id="gobutton" onclick="start()">Go!</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="jscript.js"></script>
+  </body>
+</html>

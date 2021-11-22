@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@500&display=swap');
+
+:root{
+    --randomPosY:
+    --randomPosX:
+    --diff:
+}
+
+
+body {
+  background-color: rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+  font-family: Genos;
+  overflow: hidden;
+}
+p{
+    font-size: 16px;
+}
+em{
+    font-size: 14px;
+}
+#gamemenu{
+    background-color: rgba(255, 248, 220, 0.37);
+    height: 480px;
+    width: 250px;
+    margin-top: 30px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+}
+#scorescreen{
+    background-color: rgba(255, 248, 220, 0.37);
+    height: 100;
+    width: 250px;
+    margin: 0;
+    padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+    text-align: center;
+  justify-content: space-between;
+    color: white;
+    font-size: 30px;
+}
+
+#header{
+    background-color: rgba(255, 248, 220, 0.37);
+    width: 100%;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+#score {
+    color: white;
+    font-size: 30px;
+}
+#timer {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+#balloon {
+  background-color: coral;
+  position: absolute;
+  height: var(--diff);
+  width: var(--diff);
+  border-radius: 50%;
+  margin-top: var(--randomPosY);
+  margin-left: var(--randomPosX);
+  animation: inflating 0.3s;
+  box-shadow: rgb(254, 255, 255) 0px 0px 0px 1px;
+}
+
+@keyframes inflating {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes popping {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.radio-toolbar {
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .radio-toolbar input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 20px;
+  }
+  
+  .radio-toolbar label {
+      display: flex;
+      background-color: rgb(99, 99, 99);
+      width: 100px;
+      padding: 10px 20px;
+      font-family: Genos;
+      font-size: 25px;
+      border: 2px solid #444;
+      border-radius: 4px;
+      justify-content: center;
+      
+  }
+  
+  .radio-toolbar label:hover {
+    background-color: rgba(221, 255, 221, 0.384);
+    cursor: pointer;
+  }
+  
+  .radio-toolbar input[type="radio"]:focus + label {
+      border: 2px solid #444;
+  }
+  
+  .radio-toolbar input[type="radio"]:checked + label {
+      background-color: rgba(187, 255, 187, 0.26);
+      border-color: #4c4;
+  }
+
+  button {
+    background-color: rgb(99, 99, 99);
+    margin-top: 15px;
+    padding: 10px;
+    /* width: 60px; */
+    font-family: Genos;
+    font-size: 25px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    justify-content: center;
+    color: white;
+  }
+  button:hover {
+    background-color: rgba(221, 255, 221, 0.384);
+    cursor: pointer;
+  }
