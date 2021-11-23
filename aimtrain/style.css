@@ -4,6 +4,7 @@
     --randomPosY:
     --randomPosX:
     --diff:
+    --randomCol
 }
 
 
@@ -81,7 +82,7 @@ em{
 
 
 #balloon {
-  background-color: coral;
+  background-color: var(--randomCol);
   position: absolute;
   height: var(--diff);
   width: var(--diff);

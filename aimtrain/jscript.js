@@ -39,7 +39,10 @@ function makeBalloon() {
 
   balloon.style.top = randomTop + "px";
   balloon.style.left = randomLeft + "px";
-
+  balloon.style.setProperty(
+    "--randomCol",
+    "#" + Math.floor(Math.random() * 16777215).toString(16)
+  );
   balloon.addEventListener("click", function () {
     score += 1;
     scoredisplay.innerHTML = "Score: " + score;
