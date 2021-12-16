@@ -400,6 +400,7 @@ margin: auto;
     bottom: 0px;
     font-family: "Kreon";
 }
+/*Boksen som kommer opp og forteller deg om julegaver*/
 #modal-julegaver {
     background-color: #ffcdbd;
     max-width: 700px;
@@ -412,6 +413,7 @@ margin: auto;
     border-radius: 10px;
     font-family: "Kreon";
 }
+/*Boksen som kommer opp og forteller deg om juletrepynt*/
 #modal-juletrepynt {
     background-color: #ffcdbd;
     max-width: 700px;
@@ -424,6 +426,7 @@ margin: auto;
     border-radius: 10px;
     font-family: "Kreon";
 }
+/*Boksen som kommer opp og forteller deg om juleblomst*/
 #modal-juleblomst {
     background-color: #ffcdbd;
     max-width: 700px;
@@ -436,6 +439,7 @@ margin: auto;
     border-radius: 10px;
     font-family: "Kreon";
 }
+/*Boksen som kommer opp og forteller deg om julekaker*/
 #modal-julekaker {
     background-color: #ffcdbd;
     max-width: 700px;
