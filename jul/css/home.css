@@ -218,8 +218,8 @@ margin: auto;
 .jfmain {
     font-family: Kreon;
     margin: auto;
-    margin-top: 400px;
-    width: 50%;
+    margin-top: 0px;
+    max-width: 750px;
     position: center;
     top: 50%;
     left: 50%;
