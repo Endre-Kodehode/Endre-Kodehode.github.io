@@ -1,15 +1,15 @@
 window.onload = function(){
-	//canvas init
+	//canvas initiering
 	const canvas = document.getElementById("canvas");
 	const ctx = canvas.getContext("2d");
 	
-	//canvas dimensions
+	//canvas størrelse
 	const W = window.innerWidth;
 	const H = window.innerHeight;
 	canvas.width = W;
 	canvas.height = H;
 	
-	//snowflake particles
+	//snøflak partikler
 	const mp = 50; //max particles
 	let particles = [];
 	for(let i = 0; i < mp; i++)
@@ -22,7 +22,7 @@ window.onload = function(){
 		})
 	}
 	
-	//Lets draw the flakes
+	//tegnefunksjon for snøpartikler
 	function draw()
 	{
 		ctx.clearRect(0, 0, W, H);
@@ -39,8 +39,8 @@ window.onload = function(){
 		update();
 	}
 	
-	//Function to move the snowflakes
-	//angle will be an ongoing incremental flag. Sin and Cos functions will be applied to it to create vertical and horizontal movements of the flakes
+	//bevege snøflak
+	
 	let angle = 0;
 	function update()
 	{
@@ -48,32 +48,28 @@ window.onload = function(){
 		for(let i = 0; i < mp; i++)
 		{
 			let p = particles[i];
-			//Updating X and Y coordinates
-			//We will add 1 to the cos function to prevent negative values which will lead flakes to move upwards
-			//Every particle has its own density which can be used to make the downward movement different for each flake
-			//Lets make it more random by adding in the radius
+			//oppdatere xy koordinater
 			p.y += Math.cos(angle+p.d) + 1 + p.r/2;
 			p.x += Math.sin(angle) * 2;
 			
-			//Sending flakes back from the top when it exits
-			//Lets make it a bit more organic and let flakes enter from the left and right also.
+			//exit kode
 			if(p.x > W+5 || p.x < -5 || p.y > H)
 			{
-				if(i%3 > 0) //66.67% of the flakes
+				if(i%3 > 0) //2/3 av flakene
 				{
 					particles[i] = {x: Math.random()*W, y: -10, r: p.r, d: p.d};
 				}
 				else
 				{
-					//If the flake is exitting from the right
+					// hvis høyre
 					if(Math.sin(angle) > 0)
 					{
-						//Enter from the left
+						// til venstre
 						particles[i] = {x: -5, y: Math.random()*H, r: p.r, d: p.d};
 					}
 					else
 					{
-						//Enter from the right
+						// kom inn fra høyre
 						particles[i] = {x: W+5, y: Math.random()*H, r: p.r, d: p.d};
 					}
 				}
@@ -84,7 +80,3 @@ window.onload = function(){
 	//animation loop
 	setInterval(draw, 33);
 }
-
-
-
-
