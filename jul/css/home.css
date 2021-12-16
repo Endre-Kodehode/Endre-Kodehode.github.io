@@ -252,7 +252,7 @@ margin: auto;
 .col-left {
     margin-left: 25px;
 }
-
+/*bakgrunnen skiftes til mørkerød når "julegave" knappen trykkes*/
 #overlay-julegaver {
     display: none;
     width: 100%;
@@ -265,6 +265,7 @@ margin: auto;
     background-color: rgba(178, 22, 22, 0.5);
     /*    position: relative;*/
 }
+/*bakgrunnen skiftes til mørkerød når "juletrepynt" knappen trykkes*/
 #overlay-juletrepynt {
     display: none;
     width: 100%;
@@ -277,6 +278,7 @@ margin: auto;
     background-color: rgba(178, 22, 22, 0.5);
     /*    position: relative;*/
 }
+/*bakgrunnen skiftes til mørkerød når "juleblomst" knappen trykkes*/
 #overlay-juleblomst {
     display: none;
     width: 100%;
@@ -289,6 +291,7 @@ margin: auto;
     background-color: rgba(178, 22, 22, 0.5);
     /*    position: relative;*/
 }
+/*bakgrunnen skiftes til mørkerød når "julekaker" knappen trykkes*/
 #overlay-julekaker {
     display: none;
     width: 100%;
@@ -301,7 +304,7 @@ margin: auto;
     background-color: rgba(178, 22, 22, 0.5);
     /*    position: relative;*/
 }
-
+/*knappen som åpner modal "julegaver"*/
 #open-modal-julegaver {
     background-color: #ffcdbd;
     color: #000000;
@@ -313,6 +316,7 @@ margin: auto;
     margin: 20px;
     font-family: "Kreon";
 }
+/*knappen som lukker modal "julegaver"*/
 #close-modal-julegaver {
     color: #000000;
     font-size: 48px;
@@ -324,6 +328,7 @@ margin: auto;
     bottom: 0px;
     font-family: "Kreon";
 }
+/*knappen som åpner modal "juletrepynt"*/
 #open-modal-juletrepynt {
     background-color: #ffcdbd;
     color: #000000;
@@ -335,6 +340,7 @@ margin: auto;
     margin: 20px;
     font-family: "Kreon";
 }
+/*knappen som lukker modal "juletrepynt"*/
 #close-modal-juletrepynt {
     color: #000000;
     font-size: 48px;
@@ -346,6 +352,7 @@ margin: auto;
     bottom: 0px;
     font-family: "Kreon";
 }
+/*knappen som åpner modal "juleblomst"*/
 #open-modal-juleblomst {
     background-color: #ffcdbd;
     color: #000000;
@@ -357,6 +364,7 @@ margin: auto;
     margin: 20px;
     font-family: "Kreon";
 }
+/*knappen som lukker modal "juleblomst"*/
 #close-modal-juleblomst {
     color: #000000;
     font-size: 48px;
@@ -368,6 +376,7 @@ margin: auto;
     bottom: 0px;
     font-family: "Kreon";
 }
+/*knappen som åpner modal "julekaker"*/
 #open-modal-julekaker {
     background-color: #ffcdbd;
     color: #000000;
@@ -379,6 +388,7 @@ margin: auto;
     margin: 20px;
     font-family: "Kreon";
 }
+/*knappen som lukker modal "julekaker"*/
 #close-modal-julekaker {
     color: #000000;
     font-size: 48px;
