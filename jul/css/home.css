@@ -393,7 +393,7 @@ margin: auto;
     position: absolute;
     top: 20%;
     border-radius: 10px;
-    left: 50%;
+    left: 31%;
 }
 #modal-juletrepynt {
     background-color: #ffcdbd;
@@ -405,6 +405,7 @@ margin: auto;
     position: absolute;
     top: 20%;
     border-radius: 10px;
+    left: 31%;
 }
 #modal-juleblomst {
     background-color: #ffcdbd;
@@ -416,6 +417,7 @@ margin: auto;
     position: absolute;
     top: 20%;
     border-radius: 10px;
+    left: 31%;
 }
 #modal-julekaker {
     background-color: #ffcdbd;
@@ -427,6 +429,7 @@ margin: auto;
     position: absolute;
     top: 20%;
     border-radius: 10px;
+    left: 31%;
 }
 .nativity {
     display: block;
