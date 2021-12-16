@@ -298,7 +298,7 @@ margin: auto;
     /*    position: relative;*/
 }
 
-#open-modal-julegaver, #close-modal-julegaver {
+#open-modal-julegaver {
     background-color: #ffcdbd;
     color: #000000;
     width: 147px;
@@ -308,7 +308,14 @@ margin: auto;
     border-radius: 10px;
     margin: 20px;
 }
-#open-modal-juletrepynt, #close-modal-juletrepynt {
+#close-modal-julegaver {
+    color: #000000;
+    font-size: 48px;
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+}
+#open-modal-juletrepynt {
     background-color: #ffcdbd;
     color: #000000;
     width: 147px;
@@ -318,7 +325,14 @@ margin: auto;
     border-radius: 10px;
     margin: 20px;
 }
-#open-modal-juleblomst, #close-modal-juleblomst {
+#close-modal-juletrepynt {
+    color: #000000;
+    font-size: 48px;
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+}
+#open-modal-juleblomst {
     background-color: #ffcdbd;
     color: #000000;
     width: 147px;
@@ -328,7 +342,14 @@ margin: auto;
     border-radius: 10px;
     margin: 20px;
 }
-#open-modal-julekaker, #close-modal-julekaker {
+#close-modal-juleblomst {
+    color: #000000;
+    font-size: 48px;
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+}
+#open-modal-julekaker {
     background-color: #ffcdbd;
     color: #000000;
     width: 147px;
@@ -338,7 +359,13 @@ margin: auto;
     border-radius: 10px;
     margin: 20px;
 }
-
+#close-modal-julekaker {
+    color: #000000;
+    font-size: 48px;
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+}
 #modal-julegaver {
     background-color: #ffcdbd;
     max-width: 861px;
