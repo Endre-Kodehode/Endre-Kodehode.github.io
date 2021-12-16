@@ -241,10 +241,10 @@ margin: auto;
     border-radius: 1%;
   }
 
-/* moderne */
+/* GJELDER MODERNE */
 
+/*holder teksten til høyre*/
 .main-content {
-    width: 65%;
     margin-right: 5%;
 }
 .sidebar
@@ -304,6 +304,10 @@ margin: auto;
     background-color: rgba(178, 22, 22, 0.5);
     /*    position: relative;*/
 }
+
+
+
+
 /*knappen som åpner modal "julegaver"*/
 #open-modal-julegaver {
     background-color: #ffcdbd;
@@ -452,13 +456,16 @@ margin: auto;
     border-radius: 10px;
     font-family: "Kreon";
 }
+/*bildet om er på bunnen av juletradisjoner i moderne tid*/
 .nativity {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 600px;
-    width: 1000px;
+    height: 550px;
+    width: 950px;
 }
+
+/*Bildene brukt til modalene*/
 #julegaver-bildet {
     width: 300px;
     height: 200px;
@@ -480,16 +487,19 @@ margin: auto;
     padding: 20px;
 }
 
+/*Tekstene i modalene*/
 .modaltekst {
     color: black;
     font-size: 14px;
     font-family: "Kreon";
 }
+/*tittelene i modalene*/
 .modaltittel {
     color: black;
     font-family: 'Sevillana', cursive;
     padding: 20px;
 }
+
 
 /* jule hilsen */
 .j-box {
