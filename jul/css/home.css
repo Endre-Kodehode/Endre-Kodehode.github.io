@@ -393,6 +393,7 @@ margin: auto;
     position: absolute;
     top: 20%;
     border-radius: 10px;
+    left: 50%;
 }
 #modal-juletrepynt {
     background-color: #ffcdbd;
