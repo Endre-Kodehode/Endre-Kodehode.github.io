@@ -318,6 +318,9 @@ margin: auto;
     cursor: pointer;
     border-style: none;
     background-color: transparent;
+    position: absolute;
+    left: 45%;
+    bottom: 0px;
 }
 #open-modal-juletrepynt {
     background-color: #ffcdbd;
@@ -335,6 +338,9 @@ margin: auto;
     cursor: pointer;
     border-style: none;
     background-color: transparent;
+    position: absolute;
+    left: 45%;
+    bottom: 0px;
 }
 #open-modal-juleblomst {
     background-color: #ffcdbd;
@@ -352,6 +358,9 @@ margin: auto;
     cursor: pointer;
     border-style: none;
     background-color: transparent;
+    position: absolute;
+    left: 45%;
+    bottom: 0px;
 }
 #open-modal-julekaker {
     background-color: #ffcdbd;
@@ -369,6 +378,9 @@ margin: auto;
     cursor: pointer;
     border-style: none;
     background-color: transparent;
+    position: absolute;
+    left: 45%;
+    bottom: 0px;
 }
 #modal-julegaver {
     background-color: #ffcdbd;
