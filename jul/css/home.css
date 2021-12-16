@@ -514,14 +514,7 @@ margin: auto;
     text-align: center;
     margin-top: 100px;
   }
-  /* .j-krans {
-    margin-top: 200px;
-    opacity: 0.2;
-    width: 15%;
-    top: 200px;
-    z-index: -1;
-  }
-   */
+  /* Bilde over input boks */
   .j-julepynt {
     position: absolute;
     left: 56%;
@@ -530,20 +523,7 @@ margin: auto;
     height: 225px;
   }
   
-  /* .j-julepynt {
-    position: relative;
-    right: -200px;
-    bottom: -170px;
-    width: 187px;
-    height: 225px;
-  } */
-  
-  /* .j-juletre {
-    position: relative;
-    right: 1080px;
-    bottom: -375px;
-    z-index: -1;
-  } */
+
   
   input {
     align-items: center;
@@ -565,6 +545,7 @@ margin: auto;
   button:focus {
     outline: none;
   }
+   /* Style knap "Send" start */
   .j-submit {
     color: #000000;
     background: #ffcdbd;
@@ -592,7 +573,7 @@ margin: auto;
     border-radius: 20px 20px 0 0;
     box-shadow: #436125 5px 2px;
   }
-  
+    /* Style knap "Send" slutt */
   div.j-columns {
     column-gap: 100px;
   }
