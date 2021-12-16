@@ -402,10 +402,12 @@ margin: auto;
 #juleblomst-bildet {
     width: 400px;
     height: 600px;
+    padding-top: 25px;
 }
 #julekaker-bildet {
     width: 500px;
     height: 400px;
+    padding-top: 25px;
 }
 
 .modaltekst {
