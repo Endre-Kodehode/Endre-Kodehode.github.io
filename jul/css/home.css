@@ -384,10 +384,10 @@ margin: auto;
 }
 #modal-julegaver {
     background-color: #ffcdbd;
-    max-width: 861px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
-    height: 709px;
+    height: 650px;
     text-align: center;
     position: relative;
     top: 30%;
@@ -395,10 +395,10 @@ margin: auto;
 }
 #modal-juletrepynt {
     background-color: #ffcdbd;
-    max-width: 861px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
-    height: 791px;
+    height: 650px;
     text-align: center;
     position: relative;
     top: 30%;
@@ -406,10 +406,10 @@ margin: auto;
 }
 #modal-juleblomst {
     background-color: #ffcdbd;
-    max-width: 861px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
-    height: 791px;
+    height: 650px;
     text-align: center;
     position: relative;
     top: 30%;
@@ -417,10 +417,10 @@ margin: auto;
 }
 #modal-julekaker {
     background-color: #ffcdbd;
-    max-width: 861px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
-    height: 791px;
+    height: 650px;
     text-align: center;
     position: relative;
     top: 30%;
