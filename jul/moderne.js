@@ -7,12 +7,12 @@ document.getElementById("close-modal-julegaver").addEventListener("click", funct
     document.getElementById("overlay-julegaver").style.display = "none"
 })
 //Julepynt
-document.getElementById("open-modal-julepynt").addEventListener("click", function() {
-    document.getElementById("overlay-julepynt").style.display = "block";
+document.getElementById("open-modal-juletrepynt").addEventListener("click", function() {
+    document.getElementById("overlay-juletrepynt").style.display = "block";
 })
 
-document.getElementById("close-modal-julepynt").addEventListener("click", function() {
-    document.getElementById("overlay-julepynt").style.display = "none"
+document.getElementById("close-modal-juletrepynt").addEventListener("click", function() {
+    document.getElementById("overlay-juletrepynt").style.display = "none"
 })
 //Juleblomst
 document.getElementById("open-modal-juleblomst").addEventListener("click", function() {
@@ -22,11 +22,11 @@ document.getElementById("open-modal-juleblomst").addEventListener("click", funct
 document.getElementById("close-modal-juleblomst").addEventListener("click", function() {
     document.getElementById("overlay-juleblomst").style.display = "none"
 })
-//Julesanger
-document.getElementById("open-modal-julesanger").addEventListener("click", function() {
-    document.getElementById("overlay-julesanger").style.display = "block";
+//julekaker
+document.getElementById("open-modal-julekaker").addEventListener("click", function() {
+    document.getElementById("overlay-julekaker").style.display = "block";
 })
 
-document.getElementById("close-modal-julesanger").addEventListener("click", function() {
-    document.getElementById("overlay-julesanger").style.display = "none"
+document.getElementById("close-modal-julekaker").addEventListener("click", function() {
+    document.getElementById("overlay-julekaker").style.display = "none"
 })
