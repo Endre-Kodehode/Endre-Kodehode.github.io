@@ -401,6 +401,7 @@ margin: auto;
     top: 20%;
     border-radius: 10px;
     left: 31%;
+    font-family: "Kreon";
 }
 #modal-juletrepynt {
     background-color: #ffcdbd;
@@ -413,6 +414,7 @@ margin: auto;
     top: 20%;
     border-radius: 10px;
     left: 31%;
+    font-family: "Kreon";
 }
 #modal-juleblomst {
     background-color: #ffcdbd;
@@ -425,6 +427,7 @@ margin: auto;
     top: 20%;
     border-radius: 10px;
     left: 31%;
+    font-family: "Kreon";
 }
 #modal-julekaker {
     background-color: #ffcdbd;
@@ -437,6 +440,7 @@ margin: auto;
     top: 20%;
     border-radius: 10px;
     left: 31%;
+    font-family: "Kreon";
 }
 .nativity {
     display: block;
