@@ -409,10 +409,9 @@ margin: auto;
     padding: 20px;
     height: 500px;
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 20%;
     border-radius: 10px;
-    left: 31%;
     font-family: "Kreon";
 }
 #modal-juleblomst {
@@ -422,10 +421,9 @@ margin: auto;
     padding: 20px;
     height: 500px;
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 20%;
     border-radius: 10px;
-    left: 31%;
     font-family: "Kreon";
 }
 #modal-julekaker {
@@ -435,10 +433,9 @@ margin: auto;
     padding: 20px;
     height: 500px;
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 20%;
     border-radius: 10px;
-    left: 31%;
     font-family: "Kreon";
 }
 .nativity {
