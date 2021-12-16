@@ -311,7 +311,7 @@ margin: auto;
     cursor: pointer;
     border-radius: 10px;
     margin: 20px;
-    z-index: 199;
+    font-family: "Kreon";
 }
 #close-modal-julegaver {
     color: #000000;
@@ -333,6 +333,7 @@ margin: auto;
     cursor: pointer;
     border-radius: 10px;
     margin: 20px;
+    font-family: "Kreon";
 }
 #close-modal-juletrepynt {
     color: #000000;
@@ -354,6 +355,7 @@ margin: auto;
     cursor: pointer;
     border-radius: 10px;
     margin: 20px;
+    font-family: "Kreon";
 }
 #close-modal-juleblomst {
     color: #000000;
@@ -375,6 +377,7 @@ margin: auto;
     cursor: pointer;
     border-radius: 10px;
     margin: 20px;
+    font-family: "Kreon";
 }
 #close-modal-julekaker {
     color: #000000;
