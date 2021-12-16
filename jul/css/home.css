@@ -8,6 +8,7 @@ body {
     color: #fff;
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
     /*
     text-align: left;
      max-width: 1000px;
