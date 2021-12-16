@@ -434,18 +434,18 @@ margin: auto;
     width: 1000px;
 }
 #julegaver-bildet {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     padding-top: 25px;
 }
 #juletrepynt-bildet {
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 400px;
     padding-top: 25px;
 }
 #juleblomst-bildet {
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 400px;
     padding-top: 25px;
 }
 #julekaker-bildet {
