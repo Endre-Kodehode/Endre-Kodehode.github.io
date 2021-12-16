@@ -523,3 +523,9 @@ margin: auto;
   .j-boxbilder {
     opacity: 0.7;
   }
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
