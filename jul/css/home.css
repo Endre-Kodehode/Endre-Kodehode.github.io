@@ -114,7 +114,7 @@ background-size: cover;
 .title-container{
     height: 360px;
     width: 500px;
-    margin: auto;
+    margin: auto auto 70px;
     /* background-image: url(../img/christmas-floral.png);
     background-size: cover;
     opacity: 0.3; */
