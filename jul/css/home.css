@@ -322,6 +322,7 @@ margin: auto;
     position: absolute;
     left: 45%;
     bottom: 0px;
+    font-family: "Kreon";
 }
 #open-modal-juletrepynt {
     background-color: #ffcdbd;
@@ -342,6 +343,7 @@ margin: auto;
     position: absolute;
     left: 45%;
     bottom: 0px;
+    font-family: "Kreon";
 }
 #open-modal-juleblomst {
     background-color: #ffcdbd;
@@ -362,6 +364,7 @@ margin: auto;
     position: absolute;
     left: 45%;
     bottom: 0px;
+    font-family: "Kreon";
 }
 #open-modal-julekaker {
     background-color: #ffcdbd;
@@ -382,6 +385,7 @@ margin: auto;
     position: absolute;
     left: 45%;
     bottom: 0px;
+    font-family: "Kreon";
 }
 #modal-julegaver {
     background-color: #ffcdbd;
@@ -462,6 +466,7 @@ margin: auto;
 .modaltekst {
     color: black;
     font-size: 14px;
+    font-family: "Kreon";
 }
 .modaltittel {
     color: black;
