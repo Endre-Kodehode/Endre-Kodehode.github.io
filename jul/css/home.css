@@ -311,6 +311,7 @@ margin: auto;
     cursor: pointer;
     border-radius: 10px;
     margin: 20px;
+    z-index: 199;
 }
 #close-modal-julegaver {
     color: #000000;
