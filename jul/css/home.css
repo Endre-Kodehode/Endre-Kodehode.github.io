@@ -390,8 +390,8 @@ margin: auto;
     padding: 20px;
     height: 650px;
     text-align: center;
-    position: relative;
-    top: 30%;
+    position: absolute;
+    top: 20%;
     border-radius: 10px;
 }
 #modal-juletrepynt {
@@ -401,8 +401,8 @@ margin: auto;
     padding: 20px;
     height: 650px;
     text-align: center;
-    position: relative;
-    top: 30%;
+    position: absolute;
+    top: 20%;
     border-radius: 10px;
 }
 #modal-juleblomst {
@@ -412,8 +412,8 @@ margin: auto;
     padding: 20px;
     height: 650px;
     text-align: center;
-    position: relative;
-    top: 30%;
+    position: absolute;
+    top: 20%;
     border-radius: 10px;
 }
 #modal-julekaker {
@@ -423,8 +423,8 @@ margin: auto;
     padding: 20px;
     height: 650px;
     text-align: center;
-    position: relative;
-    top: 30%;
+    position: absolute;
+    top: 20%;
     border-radius: 10px;
 }
 .nativity {
