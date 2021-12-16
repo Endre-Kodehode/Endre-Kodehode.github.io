@@ -241,12 +241,17 @@ margin: auto;
     border-radius: 1%;
   }
 
+
+
 /* GJELDER MODERNE */
+
+
 
 /*holder teksten til høyre*/
 .main-content {
     margin-right: 5%;
 }
+/*dytter teksten til høyre*/
 .col-left {
     margin-left: 25px;
 }
@@ -261,7 +266,6 @@ margin: auto;
     bottom: 0;
     right: 0;
     background-color: rgba(178, 22, 22, 0.5);
-    /*    position: relative;*/
 }
 /*bakgrunnen skiftes til mørkerød når "juletrepynt" knappen trykkes*/
 #overlay-juletrepynt {
@@ -274,7 +278,6 @@ margin: auto;
     bottom: 0;
     right: 0;
     background-color: rgba(178, 22, 22, 0.5);
-    /*    position: relative;*/
 }
 /*bakgrunnen skiftes til mørkerød når "juleblomst" knappen trykkes*/
 #overlay-juleblomst {
@@ -287,7 +290,6 @@ margin: auto;
     bottom: 0;
     right: 0;
     background-color: rgba(178, 22, 22, 0.5);
-    /*    position: relative;*/
 }
 /*bakgrunnen skiftes til mørkerød når "julekaker" knappen trykkes*/
 #overlay-julekaker {
@@ -300,7 +302,6 @@ margin: auto;
     bottom: 0;
     right: 0;
     background-color: rgba(178, 22, 22, 0.5);
-    /*    position: relative;*/
 }
 
 
