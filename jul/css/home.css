@@ -392,10 +392,12 @@ margin: auto;
 #julegaver-bildet {
     width: 500px;
     height: 400px;
+    padding-top: 25px;
 }
 #juletrepynt-bildet {
     width: 400px;
     height: 600px;
+    padding-top: 25px;
 }
 #juleblomst-bildet {
     width: 400px;
