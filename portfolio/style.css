@@ -47,3 +47,75 @@ li {
 .last {
   color: rgb(253, 237, 212);
 }
+
+.codecontain {
+  position: absolute;
+  top: 10%;
+  left: 19%;
+}
+.codeimg {
+  position: absolute;
+  z-index: -20;
+  height: 434px;
+  opacity: 0;
+  animation: fadeIn ease 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.var-highlight {
+  color: #ff8fda;
+}
+.symbol-highlight {
+  color: rgb(95, 216, 216);
+}
+.string-highlight {
+  color: rgb(255, 250, 179);
+}
+
+#typewriter {
+  font-size: 1.557em;
+
+  font-family: "Source Code Pro";
+  color: rgb(202, 201, 201);
+  margin-left: 100px;
+  margin-top: 43px;
+}
+#typewriter::after {
+  content: "|";
+  animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
