@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+  .appContainer {
+    margin-top: 0px;
+    grid-template-columns: repeat(1, 350px);
+    grid-template-rows: repeat(7, 200px);
+    top: 0;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%);
+  }
+  .sidebarContainer {
+    width: 350px;
+    height: 150px;
+  }
+  .sidebarTitle {
+    margin-top: -127px;
+    margin-left: 150px;
+  }
+  .profileName {
+    font-size: 20px;
+  }
+  .smallTxt {
+    font-size: 12px;
+  }
+  .navbar {
+    height: 200px;
+    grid-row: span 1;
+  }
+  .links {
+    display: flex;
+    bottom: 5px;
+    left: 15px;
+  }
+  .cardTxtBox {
+    width: 352px;
+    height: 150px;
+  }
+  .current {
+    font-size: 40px;
+  }
+  .previous {
+    margin-left: 180px;
+    margin-top: -25px;
+  }
+}
