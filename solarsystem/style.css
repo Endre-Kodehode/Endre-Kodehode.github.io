@@ -1,1 +1,120 @@
+body {
+  background: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.orbit {
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+.planet {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+}
+.suncontainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.sun {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.mercury-orbit {
+  width: 200px;
+  height: 200px;
+  --orbit: -100px;
+}
+
+.mercury {
+  --size: calc(2440px / 300);
+  width: var(--size);
+  height: var(--size);
+  background: rgb(139, 140, 141);
+  animation: planet calc(88s / 100) linear infinite;
+}
+
+.venus-orbit {
+  width: 290px;
+  height: 290px;
+  --orbit: -145px;
+}
+.venus {
+  --size: calc(3760px / 300);
+  width: var(--size);
+  height: var(--size);
+  background: rgb(202, 112, 38);
+  animation: planet calc(225s / 100) linear infinite;
+}
+.earth-orbit {
+  width: 400px;
+  height: 400px;
+  --orbit: -200px;
+}
+.earth {
+  --size: calc(3959px / 300);
+  width: var(--size);
+  height: var(--size);
+  background: rgb(82, 107, 216);
+  animation: planet calc(365s / 100) linear infinite;
+}
+.mars-orbit {
+  width: 550px;
+  height: 550px;
+  --orbit: -275px;
+}
+.mars {
+  --size: calc(2106px / 300);
+  width: var(--size);
+  height: var(--size);
+  background: rgb(216, 128, 117);
+  animation: planet calc(687s / 100) linear infinite;
+}
+.jupiter-orbit {
+  width: 800px;
+  height: 800px;
+  --orbit: -400px;
+}
+.jupiter {
+  --size: calc(43441px / 300);
+  width: var(--size);
+  height: var(--size);
+  background: rgb(189, 155, 123);
+  animation: planet calc(4380s / 100) linear infinite;
+}
+
+@keyframes planet {
+  0% {
+    transform: rotate(0deg) translate(var(--orbit)) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(var(--orbit)) rotate(-360deg);
+  }
+}
 
