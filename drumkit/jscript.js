@@ -8,56 +8,24 @@ function handleKeyup(drumtype) {
     "rgba(255, 166, 0, 0)";
 }
 
+let keyBinds = new Map();
+
+keyBinds.set("d", "kick");
+keyBinds.set("f", "snare");
+keyBinds.set("r", "clap");
+keyBinds.set("k", "hihat");
+keyBinds.set("l", "openhat");
+keyBinds.set("i", "ride");
+keyBinds.set("o", "tink");
+keyBinds.set("p", "tom");
+
 window.addEventListener("keydown", (e) => {
-  if (e.key === "d") {
-    handleKeydown("kick");
-  }
-  if (e.key === "f") {
-    handleKeydown("snare");
-  }
-  if (e.key === "r") {
-    handleKeydown("clap");
-  }
-  if (e.key === "k") {
-    handleKeydown("hihat");
-  }
-  if (e.key === "l") {
-    handleKeydown("openhat");
-  }
-  if (e.key === "i") {
-    handleKeydown("ride");
-  }
-  if (e.key === "o") {
-    handleKeydown("tink");
-  }
-  if (e.key === "p") {
-    handleKeydown("tom");
+  if (keyBinds.has(e.key)) {
+    handleKeydown(keyBinds.get(e.key));
   }
 });
-
 window.addEventListener("keyup", (e) => {
-  if (e.key === "d") {
-    handleKeyup("kick");
-  }
-  if (e.key === "f") {
-    handleKeyup("snare");
-  }
-  if (e.key === "r") {
-    handleKeyup("clap");
-  }
-  if (e.key === "k") {
-    handleKeyup("hihat");
-  }
-  if (e.key === "l") {
-    handleKeyup("openhat");
-  }
-  if (e.key === "i") {
-    handleKeyup("ride");
-  }
-  if (e.key === "o") {
-    handleKeyup("tink");
-  }
-  if (e.key === "p") {
-    handleKeyup("tom");
+  if (keyBinds.has(e.key)) {
+    handleKeyup(keyBinds.get(e.key));
   }
 });
