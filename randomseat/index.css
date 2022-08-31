@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgb(37, 37, 37);
+}
+.tablewrapper {
+  padding-top: 50px;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  width: 40vw;
+  height: 150px;
+  background-color: rgb(130, 111, 78);
+}
+.studentwrapper {
+  padding-top: 0px;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.student {
+  color: black;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(197, 250, 232);
+  cursor: pointer;
+}
+.tableseats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
